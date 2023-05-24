@@ -44,5 +44,9 @@ void pasien::cetakDokter() {
     }
     cout << endl;
 }
+void dokter::tambahPasien(pasien* pPasien) {
+    cout << " Daftar Pasien dari dokter\n";
+    pPasien->tambahDokter(this);
+}
 
 
